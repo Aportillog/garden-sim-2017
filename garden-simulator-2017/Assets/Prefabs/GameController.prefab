@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1101694391244468}
+  m_IsPrefabParent: 1
+--- !u!1 &1101694391244468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4923275988063468}
+  - component: {fileID: 114115739032363368}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4923275988063468
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101694391244468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114115739032363368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101694391244468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3defaf12c870f3f43893b8055430eac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableObjects:
+  - {fileID: 1591259575952874, guid: 67669ce8fd1cc65438b425758600575e, type: 2}
+  - {fileID: 1511853548672620, guid: 8764970920d04bc489013b8575e39c24, type: 2}
+  - {fileID: 1925577683208016, guid: 67e6d5ebfc0bade438cc9804d249d0cc, type: 2}
+  - {fileID: 1975279809744716, guid: 691a570c7c1f73249aa95ad7f36b59b9, type: 2}
+  - {fileID: 1002147590984564, guid: 90777ce8c1a833d4b88323a78f70a816, type: 2}
+  - {fileID: 1186169851830388, guid: 098e76d847c78a44d9a6d6357c674008, type: 2}
+  - {fileID: 1133243391097538, guid: 68519ae860585604a805263e37548b27, type: 2}
+  - {fileID: 1233135148908568, guid: 673b99870b5e7c54987f20774e8aaa3e, type: 2}
+  - {fileID: 1891957483632744, guid: a33d313626741a6409acc076530fe961, type: 2}
+  - {fileID: 1514505503958452, guid: 423408c9fd7cdfa45ac143aff255a9ba, type: 2}
+  - {fileID: 1490179579936622, guid: 42cd37d4daaa3ee4aa9ccc3957a69d19, type: 2}
+  - {fileID: 1610911520715162, guid: 05c4febf1d0a34b4b9fa1f4a28612ca8, type: 2}
+  - {fileID: 1639518625485314, guid: 69d61985369add346af23d0348ef20e4, type: 2}
+  - {fileID: 1410828113273368, guid: 643a7b09ff1eae6438200c2b2dea3ad0, type: 2}
+  - {fileID: 1153031046771008, guid: 7b55c18ca3b33044eb05af6f02ab7fd9, type: 2}
+  - {fileID: 1140917094173770, guid: 313467364e062bc48b6856c8ed3933c0, type: 2}
+  isBuilding: 1
+  objectsCanMove: 1
